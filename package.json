@@ -1,0 +1,19 @@
+{
+  "name": "mitroncoxi-sieungon",
+  "version": "1.0.0",
+  "description": "Landing Page Mì Trộn Cô Xi (Mì Trộn XUXI)",
+  "scripts": {
+    "dev": "npx -y serve .",
+    "start": "npx -y serve ."
+  },
+  "keywords": [
+    "mi-tron",
+    "co-xi",
+    "xuxi",
+    "landing-page",
+    "street-food",
+    "swiper"
+  ],
+  "author": "Mì Trộn Cô Xi",
+  "license": "MIT"
+}

@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Mì Trộn Cô Xi - Mì Trộn XUXI</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,700;0,800;1,400&amp;family=Epilogue:ital,wght@0,700;0,800;0,900;1,800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }
+.cheese-drip {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 93% 98%, 87% 85%, 80% 95%, 72% 85%, 65% 100%, 57% 86%, 50% 94%, 43% 85%, 35% 100%, 28% 86%, 20% 96%, 13% 85%, 7% 96%, 0% 85%);
+}
+@keyframes sparkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.8) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.15) rotate(15deg); }
+}
+.animate-sparkle {
+  animation: sparkle 3s infinite ease-in-out;
+}
+</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary": "#825100", "on-tertiary-fixed-variant": "#653e00", "surface-container-high": "#ffe2db", "surface": "#fff8f6", "on-secondary-fixed": "#410002", "on-primary-container": "#fffbff", "surface-container-lowest": "#ffffff", "on-tertiary": "#ffffff", "secondary": "#bb0112", "on-error-container": "#93000a", "on-background": "#380c02", "tertiary-fixed-dim": "#ffb95f", "surface-bright": "#fff8f6", "background": "#fff8f6", "on-secondary": "#ffffff", "tertiary-container": "#a36700", "on-error": "#ffffff", "on-tertiary-container": "#fffbff", "surface-container": "#ffe9e4", "surface-variant": "#ffdbd1", "inverse-surface": "#542112", "surface-container-low": "#fff1ed", "on-primary-fixed-variant": "#7f2b00", "surface-tint": "#a73a00", "primary-fixed": "#ffdbce", "surface-container-highest": "#ffdbd1", "on-primary": "#ffffff", "surface-dim": "#ffcfc3", "secondary-fixed-dim": "#ffb4ab", "on-primary-fixed": "#370e00", "on-surface": "#380c02", "tertiary-fixed": "#ffddb8", "error-container": "#ffdad6", "primary": "#a33900", "on-secondary-fixed-variant": "#93000b", "inverse-on-surface": "#ffede9", "primary-fixed-dim": "#ffb599", "on-surface-variant": "#5a4138", "error": "#ba1a1a", "inverse-primary": "#ffb599", "primary-container": "#cc4900", "outline-variant": "#e2bfb2", "outline": "#8e7166", "on-secondary-container": "#fffbff", "on-tertiary-fixed": "#2a1700", "secondary-fixed": "#ffdad6", "secondary-container": "#e02928" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2rem", "gutter-desktop": "1.5rem", "space-3xl": "4.5rem", "container-max": "1200px", "space-xs": "0.5rem", "space-lg": "1.5rem", "space-sm": "0.75rem", "gutter-mobile": "1rem", "space-2xl": "3rem", "space-md": "1rem", "space-2xs": "0.25rem" }, "fontFamily": { "headline-lg-mobile": [ "Epilogue" ], "label-sm": [ "Be Vietnam Pro" ], "label-lg": [ "Be Vietnam Pro" ], "body-lg": [ "Be Vietnam Pro" ], "headline-lg": [ "Epilogue" ], "display": [ "Epilogue" ], "headline-sm": [ "Epilogue" ], "body-sm": [ "Be Vietnam Pro" ], "label-md": [ "Be Vietnam Pro" ], "display-mobile": [ "Epilogue" ], "headline-md": [ "Epilogue" ], "body-md": [ "Be Vietnam Pro" ] }, "fontSize": { "headline-lg-mobile": [ "28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "800" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "800" } ], "label-lg": [ "15px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "700" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "500" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "display": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "900" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "700" } ], "body-sm": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "label-md": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "700" } ], "display-mobile": [ "36px", { "lineHeight": "42px", "letterSpacing": "-0.02em", "fontWeight": "900" } ], "headline-md": [ "24px", { "lineHeight": "32px", "fontWeight": "700" } ], "body-md": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased relative selection:bg-primary-container selection:text-white"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_4px_20px_-4px_rgba(163,57,0,0.08)]"><div class="h-20 max-w-[1200px] mx-auto px-space-md lg:px-space-xl flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm shrink-0"><img alt="logo.png" class="h-10 w-10 rounded-full object-cover shadow-sm border border-primary/20" src="https://lh3.googleusercontent.com/aida/AEtjO1X7KrwpbOn7mhDY53Vdwl3HJeA4JVOI4jSxnjny2iLjAJLOQUH7DwcEw02yJQoDXSGgrUB3QcJuFDt2IpHGMAvMZoRckHxdNYf2ZF9lUDRpDUV6yps0P2NtQfDJdx6u0jgy78lCfAGmh90A0yxNoYZL81_jWo2LNPgDb7_ZGcn2MCNIwDuOi5npoPMY1KTzav6TBwrGlWMofq0GGXVZ57ToQ5vpHHtMXwkfoWM_k7Yqzf-8oMUnJIXb5qRtaohY92o0W_b3x7KOZg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none font-black">Mì Trộn Cô Xi</span><span class="font-label-sm text-label-sm text-on-surface-variant font-bold tracking-wider uppercase">Mì Trộn XUXI</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-full px-space-sm py-space-xs"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="trang-chu" href="#">Trang Chủ</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="hai-vi-sot-dinh-cao" href="#hai-loai-sot">Hai Vị Sốt Đỉnh Cao</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="bao-bi-ly-giay" href="#bao-bi-ly-giay">Bao Bì XUXI</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="menu-va-topping" href="#combo-topping">Menu &amp; Topping</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="cam-nhan-thuc-khach" href="#danh-gia">Cảm Nhận Thực Khách</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="dia-chi-va-lien-he" href="#dat-mon">Địa Chỉ &amp; Liên Hệ</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:flex items-center gap-space-2xs bg-surface-container-high px-space-md py-space-xs rounded-full hover:bg-surface-variant transition-colors" href="tel:07712578898"><span class="material-symbols-outlined text-secondary text-[20px]">call</span><div class="flex flex-col"><span class="font-label-sm text-label-sm text-on-surface-variant leading-none">Hotline Đặt Món</span><span class="font-label-lg text-label-lg text-on-surface font-extrabold leading-tight">077 12 578 898</span></div></a><a class="inline-flex items-center justify-center bg-primary-container text-on-primary-container px-space-lg py-space-xs rounded-full font-label-lg text-label-lg shadow-[0_8px_0px_0px_#7f2b00] hover:bg-primary active:translate-y-1 active:shadow-[0_4px_0px_0px_#7f2b00] transition-all" data-path="menu-va-topping" href="#dat-mon"><span class="material-symbols-outlined mr-space-2xs text-[20px]">local_mall</span><span>Đặt Giao Hàng Ngay</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0 shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full overflow-hidden text-on-surface">
+<!-- 1. HERO SECTION SIÊU HẤP DẪN -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-[#ffeedb] via-surface-container to-surface py-space-2xl lg:py-space-3xl">
+<!-- Họa tiết trang trí doodle nền từ bao bì -->
+<div class="absolute inset-0 pointer-events-none opacity-20 overflow-hidden">
+<div class="absolute top-10 left-12 animate-sparkle text-tertiary-container font-black text-2xl">✦</div>
+<div class="absolute top-48 right-16 animate-sparkle text-secondary text-3xl" style="animation-delay: 1.2s">✦</div>
+<div class="absolute bottom-16 left-1/3 text-primary text-2xl animate-sparkle" style="animation-delay: 2s">✦</div>
+<!-- Doodle Phô mai -->
+<svg class="absolute -top-6 -right-6 w-32 h-32 text-amber-500/25" fill="currentColor" viewbox="0 0 100 100"><path d="M10 70 L90 70 L80 30 L40 20 Z M30 50 A6 6 0 1 0 30 38 A6 6 0 0 0 30 50 Z M60 55 A8 8 0 1 0 60 39 A8 8 0 0 0 60 55 Z"></path></svg>
+<!-- Doodle Ớt Sa tế -->
+<svg class="absolute bottom-8 left-6 w-20 h-20 text-red-500/25 rotate-45" fill="currentColor" viewbox="0 0 24 24"><path d="M19.59 13.52C18.66 8.35 15.11 4.79 13 3c-.15 1.5-.94 2.8-2 3.65C10.13 6.06 9 5.5 8 5.5c-2.48 0-4.5 2.02-4.5 4.5 0 5.52 4.48 10 10 10 3.31 0 6.27-1.61 8.09-4.09l-2-2.39z"></path></svg>
+</div>
+<div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Cột Nội Dung Hero -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-space-md">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-highest/90 border border-primary/20 px-space-md py-space-2xs rounded-full shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="font-label-md text-label-md text-primary font-black uppercase tracking-wider">Đặc sản mì trộn đường phố Sài Gòn • Chuẩn vị XUXI</span>
+</div>
+<h1 class="font-display text-display leading-tight text-on-surface">
+            VỊ NGON <span class="text-primary tracking-tight">ĐẬM ĐÀ</span>,<br/>
+            BÙNG NỔ <span class="text-secondary tracking-tight">VỊ GIÁC!</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Khám phá bản phối hương vị đỉnh chóp giữa sợi mì dai mướt, topping tươi giòn đầy ắp và 2 loại sốt độc quyền chuẩn thiết kế bao bì XUXI: <strong class="text-amber-700">Sốt Phô Mai Béo Ngậy</strong> &amp; <strong class="text-secondary">Sốt Đặc Biệt Sa Tế Bí Truyền</strong>.
+          </p>
+<!-- Huy hiệu cam kết -->
+<div class="grid grid-cols-3 gap-space-sm w-full pt-space-xs">
+<div class="bg-surface-container-lowest/95 p-space-sm rounded-xl shadow-sm border border-outline-variant/40 flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[28px] shrink-0">verified</span>
+<span class="font-label-sm text-label-sm leading-tight text-on-surface font-bold">100% Thịt &amp; Trứng tươi mới</span>
+</div>
+<div class="bg-surface-container-lowest/95 p-space-sm rounded-xl shadow-sm border border-outline-variant/40 flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px] shrink-0">skillet</span>
+<span class="font-label-sm text-label-sm leading-tight text-on-surface font-bold">Sốt độc quyền nấu tay</span>
+</div>
+<div class="bg-surface-container-lowest/95 p-space-sm rounded-xl shadow-sm border border-outline-variant/40 flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[28px] shrink-0">electric_moped</span>
+<span class="font-label-sm text-label-sm leading-tight text-on-surface font-bold">Giao nóng giòn trong 30p</span>
+</div>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-md">
+<a class="inline-flex items-center justify-center gap-space-xs bg-primary-container text-on-primary-container px-space-xl py-space-md rounded-full font-label-lg text-label-lg shadow-[0_8px_0px_0px_#7f2b00] hover:bg-primary active:translate-y-1 active:shadow-[0_4px_0px_0px_#7f2b00] transition-all" href="#dat-mon">
+<span class="material-symbols-outlined text-[24px]">soup_kitchen</span>
+<span>Đặt Món Ngay - Từ 39K</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs bg-surface-container-high text-primary px-space-lg py-space-md rounded-full font-label-lg text-label-lg hover:bg-surface-variant transition-all font-bold" href="#hai-loai-sot">
+<span>Khám Phá 2 Vị Sốt</span>
+<span class="material-symbols-outlined text-[20px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs bg-surface-container-lowest text-on-surface border border-outline-variant px-space-md py-space-md rounded-full font-label-md text-label-md hover:bg-surface transition-all font-bold" href="#bao-bi-ly-giay">
+<span class="material-symbols-outlined text-tertiary text-[20px]">takeout_dining</span>
+<span>Ly Giấy Giữ Nhiệt 2 Lớp</span>
+</a>
+</div>
+<!-- Rating review bar -->
+<div class="flex items-center gap-space-md pt-space-xs text-on-surface-variant">
+<div class="flex text-tertiary-container">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold"><strong>4.9/5</strong> (Hơn 1,500+ lượt đánh giá trên Grab &amp; ShopeeFood)</span>
+</div>
+</div>
+<!-- Cột Ảnh Hero Showcase -->
+<div class="lg:col-span-5 relative flex justify-center items-center">
+<div class="relative w-full max-w-[450px] aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl bg-surface-container-high border-4 border-surface-container-lowest">
+<img alt="Tô Mì Trộn XUXI Đầy Đặn Thơm Ngon" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzoXfFue5pR1p4CgoDNuk_z9XRymIzBElGzMy3a2V2nd728X0jimgttcXMv6HNXlp0dSxU2nYLvwn0c8mqKHoVdkcctuV9zd34tKR-reHZ7D46v08W9Us-f4jMA4afu7TNWcAUNCHS6CiWxOqKjS5Zxvp5tWdF6AWYJtAArj3o-pJWwwmRVBlvC7ba_XJqiAdyGBg6WfWFE_veSOE8tAEq7q8Dsw1LMm9_8fw0l6KUHrlHP1qpxYjSZrp2RVGggrDTm-M"/>
+<!-- Floating Mascot Speech Badge -->
+<div class="absolute top-4 left-4 bg-surface/95 backdrop-blur-md p-space-sm rounded-2xl shadow-xl flex items-center gap-space-xs max-w-[220px] border border-primary/20">
+<img alt="Cô Xi" class="w-10 h-10 rounded-full object-cover shrink-0 border border-primary" src="https://lh3.googleusercontent.com/aida/AEtjO1X7KrwpbOn7mhDY53Vdwl3HJeA4JVOI4jSxnjny2iLjAJLOQUH7DwcEw02yJQoDXSGgrUB3QcJuFDt2IpHGMAvMZoRckHxdNYf2ZF9lUDRpDUV6yps0P2NtQfDJdx6u0jgy78lCfAGmh90A0yxNoYZL81_jWo2LNPgDb7_ZGcn2MCNIwDuOi5npoPMY1KTzav6TBwrGlWMofq0GGXVZ57ToQ5vpHHtMXwkfoWM_k7Yqzf-8oMUnJIXb5qRtaohY92o0W_b3x7KOZg"/>
+<p class="font-label-sm text-label-sm text-on-surface font-extrabold leading-tight">
+                "Mì trộn ngon nhớ đời, ăn một tô là dính liền nha!"
+              </p>
+</div>
+<!-- Floating Sticker Cheese & Chili -->
+<div class="absolute bottom-4 right-4 bg-secondary-container/95 text-on-secondary-container px-space-md py-space-xs rounded-full shadow-lg flex items-center gap-space-2xs animate-pulse">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">whatshot</span>
+<span class="font-label-md text-label-md font-black tracking-wide">Sa Tế &amp; Phô Mai Siêu Cháy</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. TIÊU ĐIỂM 2 SIÊU PHẨM SỐT ĐỘC QUYỀN (CHUẨN NGÔN NGỮ THIẾT KẾ BAO BÌ) -->
+<section class="w-full py-space-3xl bg-surface relative" id="hai-loai-sot">
+<!-- Họa tiết chìm nền -->
+<div class="absolute inset-0 pointer-events-none opacity-10">
+<div class="absolute top-8 left-10 text-4xl">🧀</div>
+<div class="absolute bottom-12 right-12 text-4xl">🌶️</div>
+<div class="absolute top-1/2 right-1/4 text-2xl text-amber-500 font-bold">✦</div>
+</div>
+<div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl relative z-10">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<span class="font-label-md text-label-md text-primary font-black uppercase tracking-widest bg-primary-fixed px-space-md py-space-2xs rounded-full inline-block mb-space-xs border border-primary/30 shadow-sm">
+          Trái Tim Của Tô Mì XUXI
+</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-black">
+          HAI VỊ SỐT ĐỈNH CAO - GÂY THƯƠNG NHỚ
+</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Tái hiện trọn vẹn phong cách bao bì độc quyền của Mì Trộn Cô Xi: vàng óng phô mai béo ngậy và nâu thẫm sa tế gia truyền đậm vị.
+</p>
+</div>
+<!-- Grid 2 Cột Song Song Chuẩn Phong Cách Bao Bì -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-xl items-stretch">
+<!-- CỘT 1: MÌ TRỘN SỐT PHÔ MAI (Phong cách bao bì vàng cam rực rỡ từ nửa trái ảnh) -->
+<div class="flex flex-col bg-gradient-to-b from-[#f59e0b] via-[#ea580c] to-[#b45309] text-white rounded-3xl overflow-hidden shadow-2xl relative border-2 border-amber-300 group">
+<!-- Drip viền sốt phô mai chảy phía trên đỉnh -->
+<div class="w-full h-8 bg-[#fbbf24] cheese-drip relative z-10 shadow-inner"></div>
+<!-- Họa tiết Doodle Bao bì: Bánh phô mai, lát phô mai, bình xịt sốt, tia sáng -->
+<div class="absolute inset-0 pointer-events-none overflow-hidden z-0 opacity-25">
+<!-- Cheese wheel doodle -->
+<svg class="absolute top-12 left-4 w-20 h-20" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 100 100">
+<ellipse cx="50" cy="30" rx="35" ry="16"></ellipse>
+<path d="M15 30 v30 c0 9 15 16 35 16 s35 -7 35 -16 v-30"></path>
+<path d="M50 30 L80 40 L60 65 Z"></path>
+<circle cx="35" cy="50" fill="currentColor" r="4"></circle>
+<circle cx="65" cy="52" fill="currentColor" r="3"></circle>
+</svg>
+<!-- Cheese slices doodle -->
+<svg class="absolute top-28 left-6 w-16 h-16" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 80 80">
+<polygon points="10,30 70,20 60,65 5,50"></polygon>
+<circle cx="30" cy="38" fill="currentColor" r="4"></circle>
+<circle cx="50" cy="34" fill="currentColor" r="3"></circle>
+</svg>
+<!-- Cheese dispenser pump doodle -->
+<svg class="absolute bottom-28 left-4 w-14 h-20" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 60 90">
+<rect height="40" rx="5" width="30" x="15" y="40"></rect>
+<path d="M30 40 V20 H45 V15 H25 V20 H30"></path>
+<circle cx="28" cy="55" fill="currentColor" r="3"></circle>
+<circle cx="35" cy="68" fill="currentColor" r="4"></circle>
+</svg>
+<!-- Sparkles -->
+<span class="absolute top-16 right-10 text-2xl font-bold text-yellow-200 animate-sparkle">✦</span>
+<span class="absolute bottom-40 right-6 text-xl font-bold text-yellow-200 animate-sparkle" style="animation-delay: 1.5s">✦</span>
+</div>
+<!-- Header Card: Logo Cô Xi & Tiêu Đề Bao Bì -->
+<div class="px-space-lg pt-space-md pb-space-xs flex items-center justify-between relative z-10">
+<div class="flex items-center gap-space-xs">
+<img alt="Cô Xi Phô Mai" class="w-12 h-12 rounded-full border-2 border-amber-200 shadow-md object-cover bg-amber-100" src="https://lh3.googleusercontent.com/aida/AEtjO1X7KrwpbOn7mhDY53Vdwl3HJeA4JVOI4jSxnjny2iLjAJLOQUH7DwcEw02yJQoDXSGgrUB3QcJuFDt2IpHGMAvMZoRckHxdNYf2ZF9lUDRpDUV6yps0P2NtQfDJdx6u0jgy78lCfAGmh90A0yxNoYZL81_jWo2LNPgDb7_ZGcn2MCNIwDuOi5npoPMY1KTzav6TBwrGlWMofq0GGXVZ57ToQ5vpHHtMXwkfoWM_k7Yqzf-8oMUnJIXb5qRtaohY92o0W_b3x7KOZg"/>
+<div>
+<span class="text-yellow-200 font-label-sm text-label-sm font-black uppercase tracking-wider block leading-none">Bao Bì Ly Giấy XUXI</span>
+<span class="font-headline-sm text-headline-sm font-black text-white">Mì Trộn Sốt Phô Mai</span>
+</div>
+</div>
+<span class="bg-yellow-400 text-amber-950 px-space-sm py-1 rounded-full font-label-sm text-label-sm font-black tracking-wider shadow-sm uppercase">BEST SELLER</span>
+</div>
+<!-- Tagline chuẩn bao bì -->
+<div class="px-space-lg relative z-10 flex items-center gap-space-2xs">
+<span class="bg-amber-900/60 backdrop-blur-sm border border-amber-300/40 text-yellow-200 font-label-md text-label-md px-space-md py-1 rounded-full font-black tracking-wide flex items-center gap-1 shadow-sm">
+<span>🧀</span> BÉO NGẬY &amp; KEM BÉO
+    </span>
+</div>
+<!-- Hình ảnh món ăn thực tế chụp thật -->
+<div class="relative h-64 sm:h-72 mt-space-sm mx-space-md rounded-2xl overflow-hidden shadow-lg border-2 border-amber-300/60 bg-amber-950/40 z-10">
+<img alt="Mì Trộn Sốt Phô Mai Béo Ngậy Kéo Sợi" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZ1EdHcMZvRYRcFJXdrQcIF967Aezd51y-RwQg9iprUlSJXuSBHEG6Fvg6zpOAlwCdv5xV4FXW2QpJRNtvZpluOZBnqTv5LqX0fUBBdYzYbEokND6H6n0-L97ZMnut1QuoyjD3BqD2c5RC99IzPXaMOsQ86SbKrbuAF5uybys42lqJcuXw-lZHlcIEYcpZBLkmw1FF3gCqqdlfhXr18hop5LcoGkelamWhavDMM4O10m9M5DbTwHQNWhCeYa0Oxxkj2PM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 right-3 bg-yellow-400 text-amber-950 px-space-md py-1 rounded-xl shadow-lg">
+<span class="font-headline-sm text-headline-sm font-black">39.000đ</span>
+</div>
+<div class="absolute bottom-3 left-3 bg-black/50 backdrop-blur-md px-space-sm py-1 rounded-lg text-white font-label-sm text-label-sm flex items-center gap-1 border border-white/20">
+<span class="material-symbols-outlined text-[16px] text-yellow-400">restaurant</span>
+<span>Ảnh chụp đĩa thực tế</span>
+</div>
+</div>
+<!-- Nội dung mô tả & Bảng thành phần chuẩn theo mẫu bao bì -->
+<div class="p-space-lg lg:p-space-xl flex flex-col flex-1 justify-between relative z-10">
+<div>
+<p class="text-amber-50 font-body-md text-body-md leading-relaxed mb-space-md drop-shadow-sm">
+        Sốt phô mai đặc sánh vàng ươm, dẻo quánh thơm nức, vị ngọt béo dịu dàng quyện cùng lòng đào tan chảy và ngô ngọt giòn tươi.
+      </p>
+<!-- THÀNH PHẦN CHUẨN MẪU BAO BÌ NỬA TRÁI ẢNH -->
+<div class="bg-amber-950/50 backdrop-blur-md p-space-md rounded-2xl mb-space-lg border border-yellow-300/40 shadow-inner">
+<div class="flex items-center justify-between mb-space-xs border-b border-amber-400/30 pb-space-2xs">
+<span class="font-label-md text-label-md text-yellow-300 font-black uppercase tracking-wider flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[18px]">checklist</span>
+            THÀNH PHẦN CHUẨN VỊ (THEO BAO BÌ):
+          </span>
+<span class="text-xs text-amber-200">XUXI Cup Formula</span>
+</div>
+<ul class="grid grid-cols-2 gap-y-space-2xs text-body-sm font-medium text-amber-100">
+<li class="flex items-center gap-space-2xs">
+<span class="text-yellow-300">●</span> Mì khô hảo hạng dai mướt
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-yellow-300">●</span> Phô Mai vàng kem béo
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-yellow-300">●</span> Trứng gà ta lòng đào
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-yellow-300">●</span> Cải xanh thìa non giòn
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-yellow-300">●</span> Sốt Phô Mai dẻo quánh
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-yellow-300">●</span> Gia vị bí truyền Cô Xi
+          </li>
+</ul>
+</div>
+</div>
+<button class="w-full bg-gradient-to-r from-yellow-400 to-amber-300 hover:from-yellow-300 hover:to-amber-200 text-amber-950 py-space-md rounded-2xl font-label-lg text-label-lg font-black tracking-wide shadow-lg hover:shadow-xl active:translate-y-0.5 transition-all flex items-center justify-center gap-space-xs" onclick="selectDish('Mì Trộn Sốt Phô Mai', 39000)">
+<span class="material-symbols-outlined text-[22px]">add_shopping_cart</span>
+<span>Thử Vị Phô Mai Ngay - 39.000đ</span>
+</button>
+</div>
+</div>
+<!-- CỘT 2: MÌ TRỘN SỐT ĐẶC BIỆT (Phong cách bao bì màu nâu đỏ thẫm/maroon từ nửa phải ảnh) -->
+<div class="flex flex-col bg-gradient-to-b from-[#4a150e] via-[#380e08] to-[#250905] text-white rounded-3xl overflow-hidden shadow-2xl relative border-2 border-red-900/60 group">
+<!-- Viền trên tinh tế phong cách nắp ly giấy -->
+<div class="w-full h-8 bg-gradient-to-r from-[#6e1e12] via-[#8d2212] to-[#6e1e12] border-b border-red-700/40 relative z-10 flex items-center justify-between px-space-md text-[11px] font-bold text-red-200 tracking-wider uppercase">
+<span>★ CÔNG THỨC GIA TRUYỀN ★</span>
+<span>SỐT ĐẶC BIỆT XUXI</span>
+</div>
+<!-- Họa tiết Doodle Bao bì: Mũ đầu bếp, ngò rí rau thơm, quả ớt, ngôi sao sparkle -->
+<div class="absolute inset-0 pointer-events-none overflow-hidden z-0 opacity-20">
+<!-- Chef hat doodle -->
+<svg class="absolute top-12 left-6 w-20 h-20 text-red-200" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 100 100">
+<path d="M25 65 H75 V78 H25 Z"></path>
+<path d="M25 65 C15 65 10 50 20 40 C15 25 35 20 45 28 C55 18 75 22 75 35 C85 45 80 65 75 65"></path>
+</svg>
+<!-- Coriander sprig / herb doodle -->
+<svg class="absolute top-36 left-8 w-16 h-16 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 80 80">
+<path d="M40 75 Q40 40 60 20 M40 50 Q20 35 15 20 M40 30 Q30 15 35 5"></path>
+<circle cx="60" cy="20" fill="currentColor" r="6"></circle>
+<circle cx="15" cy="20" fill="currentColor" r="5"></circle>
+<circle cx="35" cy="5" fill="currentColor" r="5"></circle>
+</svg>
+<!-- Chili doodle -->
+<svg class="absolute bottom-28 left-6 w-16 h-16 text-red-500" fill="currentColor" viewbox="0 0 24 24">
+<path d="M19.59 13.52C18.66 8.35 15.11 4.79 13 3c-.15 1.5-.94 2.8-2 3.65C10.13 6.06 9 5.5 8 5.5c-2.48 0-4.5 2.02-4.5 4.5 0 5.52 4.48 10 10 10 3.31 0 6.27-1.61 8.09-4.09l-2-2.39z"></path>
+</svg>
+<!-- Sparkles -->
+<span class="absolute top-16 right-8 text-2xl font-bold text-amber-200 animate-sparkle">✦</span>
+<span class="absolute bottom-36 right-8 text-3xl font-bold text-amber-200 animate-sparkle" style="animation-delay: 1.8s">✦</span>
+</div>
+<!-- Header Card: Logo Cô Xi & Tiêu Đề Bao Bì -->
+<div class="px-space-lg pt-space-md pb-space-xs flex items-center justify-between relative z-10">
+<div class="flex items-center gap-space-xs">
+<img alt="Cô Xi Sa Tế" class="w-12 h-12 rounded-full border-2 border-red-400 shadow-md object-cover bg-red-950" src="https://lh3.googleusercontent.com/aida/AEtjO1X7KrwpbOn7mhDY53Vdwl3HJeA4JVOI4jSxnjny2iLjAJLOQUH7DwcEw02yJQoDXSGgrUB3QcJuFDt2IpHGMAvMZoRckHxdNYf2ZF9lUDRpDUV6yps0P2NtQfDJdx6u0jgy78lCfAGmh90A0yxNoYZL81_jWo2LNPgDb7_ZGcn2MCNIwDuOi5npoPMY1KTzav6TBwrGlWMofq0GGXVZ57ToQ5vpHHtMXwkfoWM_k7Yqzf-8oMUnJIXb5qRtaohY92o0W_b3x7KOZg"/>
+<div>
+<span class="text-red-300 font-label-sm text-label-sm font-black uppercase tracking-wider block leading-none">Bao Bì Ly Giấy XUXI</span>
+<span class="font-headline-sm text-headline-sm font-black text-white">Mì Trộn Sốt Đặc Biệt</span>
+</div>
+</div>
+<span class="bg-secondary text-white px-space-sm py-1 rounded-full font-label-sm text-label-sm font-black tracking-wider shadow-sm uppercase">CỰC GÂY NGHIỆN</span>
+</div>
+<!-- Tagline chuẩn bao bì -->
+<div class="px-space-lg relative z-10 flex items-center gap-space-2xs">
+<span class="bg-red-950/80 backdrop-blur-sm border border-red-500/40 text-amber-200 font-label-md text-label-md px-space-md py-1 rounded-full font-black tracking-wide flex items-center gap-1 shadow-sm">
+<span>🔥</span> ĐẬM ĐÀ &amp; BÍ TRUYỀN
+    </span>
+</div>
+<!-- Hình ảnh món ăn thực tế chụp thật -->
+<div class="relative h-64 sm:h-72 mt-space-sm mx-space-md rounded-2xl overflow-hidden shadow-lg border-2 border-red-700/60 bg-red-950/50 z-10">
+<img alt="Mì Trộn Sốt Đặc Biệt Sa Tế Đậm Đà Cay Nồng" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD40lzhyk7qVAC62c8IFRdzyTr1wOVAbfTkUObtYNWHekiLyVOeoHrkD7pp79iXVaqFMP8fp1uYf3uTE5AdsWaIQYx623RflCyrSUeUrHWOjE9Kpqz_jZolFvEv-zI-8kk1VqOBQlq0sQngqPNFITSjIdCdnOJclvXg4_TxpiNVHk7KJYP1n2GncKFhtHs_thBXS--yFDOe-6NPhcTZrrkOfWa9WX6zzSorVbMvUn7U5wk5U_qwR6_khClYhItsJVnAq2I"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 right-3 bg-secondary text-white px-space-md py-1 rounded-xl shadow-lg">
+<span class="font-headline-sm text-headline-sm font-black">39.000đ</span>
+</div>
+<div class="absolute bottom-3 left-3 bg-black/50 backdrop-blur-md px-space-sm py-1 rounded-lg text-white font-label-sm text-label-sm flex items-center gap-1 border border-white/20">
+<span class="material-symbols-outlined text-[16px] text-red-400">restaurant</span>
+<span>Ảnh chụp đĩa thực tế</span>
+</div>
+</div>
+<!-- Nội dung mô tả & Bảng thành phần chuẩn theo mẫu bao bì bên phải -->
+<div class="p-space-lg lg:p-space-xl flex flex-col flex-1 justify-between relative z-10">
+<div>
+<p class="text-red-100 font-body-md text-body-md leading-relaxed mb-space-md drop-shadow-sm">
+        Sa tế gia truyền cay thơm the the, hòa cùng sốt đặc biệt cô đặc sóng sánh đậm vị ngất ngây, bảo quản nóng giòn thơm nức mũi.
+      </p>
+<!-- THÀNH PHẦN CHUẨN MẪU BAO BÌ NỬA PHẢI ẢNH -->
+<div class="bg-[#240602]/80 backdrop-blur-md p-space-md rounded-2xl mb-space-md border border-red-700/50 shadow-inner">
+<div class="flex items-center justify-between mb-space-xs border-b border-red-700/40 pb-space-2xs">
+<span class="font-label-md text-label-md text-amber-300 font-black uppercase tracking-wider flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[18px]">checklist</span>
+            THÀNH PHẦN CHUẨN VỊ (THEO BAO BÌ):
+          </span>
+<span class="text-xs text-red-300">XUXI Cup Formula</span>
+</div>
+<ul class="grid grid-cols-2 gap-y-space-2xs text-body-sm font-medium text-red-100">
+<li class="flex items-center gap-space-2xs">
+<span class="text-red-400">●</span> Mì khô dai giòn chuẩn giờ
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-red-400">●</span> Thịt băm xào thơm tiêu
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-red-400">●</span> Trứng gà lòng đào béo
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-red-400">●</span> Bắp ngọt tách hạt
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-red-400">●</span> Cải xanh giòn ngọt
+          </li>
+<li class="flex items-center gap-space-2xs">
+<span class="text-red-400">●</span> Gia vị trộn &amp; tỏi phi
+          </li>
+<li class="flex items-center gap-space-2xs col-span-2 text-amber-200">
+<span class="text-amber-300">★</span> Sốt đặc biệt XUXI (Ớt Sa Tế Nấu Tay)
+          </li>
+</ul>
+</div>
+<!-- BẢO QUẢN & CAM KẾT BAO BÌ THEO CHUẨN -->
+<div class="flex items-center gap-space-xs text-xs text-red-200 mb-space-lg bg-red-950/40 px-space-md py-2 rounded-xl border border-red-800/40">
+<span class="material-symbols-outlined text-[18px] text-amber-400">verified</span>
+<span><strong>BẢO QUẢN:</strong> Nơi khô ráo, tránh ánh nắng trực tiếp. Giữ nóng giòn nguyên bản khi ship!</span>
+</div>
+</div>
+<button class="w-full bg-gradient-to-r from-secondary to-[#e02928] hover:from-[#d61324] hover:to-[#be1919] text-white py-space-md rounded-2xl font-label-lg text-label-lg font-black tracking-wide shadow-lg hover:shadow-xl active:translate-y-0.5 transition-all flex items-center justify-center gap-space-xs" onclick="selectDish('Mì Trộn Sốt Đặc Biệt Sa Tế', 39000)">
+<span class="material-symbols-outlined text-[22px]">whatshot</span>
+<span>Thử Vị Sốt Bí Truyền Ngay - 39.000đ</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION MỚI: TRƯNG BÀY BAO BÌ LY GIẤY XUXI TIỆN LỢI TỪ ẢNH IMAGE_13 -->
+<section class="w-full py-space-3xl bg-gradient-to-b from-surface-container to-[#ffeedd] relative overflow-hidden" id="bao-bi-ly-giay">
+<!-- Doodles nền quanh banner -->
+<div class="absolute inset-0 pointer-events-none opacity-20">
+<div class="absolute top-10 left-10 text-3xl font-black text-amber-600">✦</div>
+<div class="absolute bottom-10 right-14 text-4xl font-black text-red-700">✦</div>
+</div>
+<div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl relative z-10">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-highest px-space-md py-space-2xs rounded-full border border-primary/20 mb-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">takeout_dining</span>
+<span class="font-label-md text-label-md font-black uppercase text-primary tracking-wider">Tiêu Chuẩn Bao Bì Chính Hãng Cô Xi</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-black text-on-surface">
+        BAO BÌ LY GIẤY XUXI TIỆN LỢI &amp; AN TOÀN
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+        Bao bì ly giấy 2 lớp giữ nhiệt chuẩn mực, thiết kế bắt mắt độc quyền, sạch sẽ, an toàn cho sức khỏe và tiện lợi thưởng thức mọi lúc mọi nơi.
+      </p>
+</div>
+<!-- Trình chiếu chính thức ảnh Bao Bì Ly Giấy Image_13 -->
+<div class="bg-surface-container-lowest p-space-md lg:p-space-xl rounded-3xl shadow-xl border-2 border-primary/20 flex flex-col items-center">
+<div class="w-full rounded-2xl overflow-hidden shadow-md bg-[#250905]/10 border border-outline-variant/30 relative group">
+<img alt="Bản Thiết Kế Bao Bì Ly Giấy Mì Trộn XUXI Cô Xi" class="w-full h-auto object-cover transform group-hover:scale-[1.01] transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQl6d1VzW9W3DcxO2yGjC_bA4u6eX-H-vOq713W_2-E7j3bB8qJ2w7s-Ff6g8K1M7g3-jX9pQ1oZ-9-qC6Z_nU3R-oZ9lY-vK6jK-P0eD5-zL3Q6A-p4-2_Y7eB5-h8p0u2K-a4-fX_k"/>
+<div class="absolute bottom-4 left-4 bg-surface/90 backdrop-blur-md px-space-md py-1 rounded-full shadow text-on-surface font-label-sm text-label-sm font-extrabold flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-ping"></span>
+<span>Bản Quyền Thiết Kế Ly Giấy Mì Trộn XUXI</span>
+</div>
+</div>
+<!-- 3 Điểm Cộng Của Ly Giấy XUXI -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md w-full mt-space-xl pt-space-xs">
+<div class="bg-surface p-space-md rounded-2xl border border-outline-variant/30 flex items-start gap-space-sm shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center shrink-0 font-black text-xl">
+            2L
+          </div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold text-base mb-1">Giấy Kraft 2 Lớp Giữ Nhiệt</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Giữ cho mì và sốt luôn ấm nóng trong 45 phút, bên ngoài không bị bỏng tay khi cầm.</p>
+</div>
+</div>
+<div class="bg-surface p-space-md rounded-2xl border border-outline-variant/30 flex items-start gap-space-sm shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-red-100 text-secondary flex items-center justify-center shrink-0 font-black text-xl">
+<span class="material-symbols-outlined text-[26px]">eco</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold text-base mb-1">Mực In Gốc Đậu Nành</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Thân thiện môi trường, khử khuẩn tia cực tím, an toàn tuyệt đối khi tiếp xúc thực phẩm nóng.</p>
+</div>
+</div>
+<div class="bg-surface p-space-md rounded-2xl border border-outline-variant/30 flex items-start gap-space-sm shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed text-primary flex items-center justify-center shrink-0 font-black text-xl">
+<span class="material-symbols-outlined text-[26px]">moped</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold text-base mb-1">Nắp Khớp Chống Tràn 100%</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Thiết kế gờ khóa an toàn, sốt đậm đà không lo văng đổ dù đường đi gập ghềnh.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. GÓC TOPPING TRÀN TRỀ & QUY TRÌNH CHẾ BIẾN SẠCH CHUẨN VỊ -->
+<section class="w-full py-space-3xl bg-surface-container-low">
+<div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl">
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<span class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider block mb-space-2xs">
+            Nguyên Liệu Thực Tế
+          </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-black">
+            TOPPING ĐẦY ĐẶN - SẠCH TỪ TÂM
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Mỗi suất ăn đến tay bạn đều được chuẩn bị với sự kỹ lưỡng cao nhất: không dùng đồ đông lạnh cũ, không dầu chiên đi chiên lại.
+        </p>
+</div>
+<!-- Bento Grid Thư Viện Ảnh Nguyên Liệu Thực Tế -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg mb-space-2xl">
+<div class="relative group rounded-3xl overflow-hidden aspect-[4/5] bg-surface shadow-md">
+<img alt="Thịt băm xào thơm lừng và nguyên liệu tươi sạch" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8o1-pasLvHIVhDyUUzuAxO7bkF_t5m15_WRh42PivFI5acfFYlDWnqwamzssdseF9giLru_zXxxrnxqcXz6jWPudppDO7Z4nGOgPMtLfFc3EgqECkmCfchsUC7pT1HeVYLs2Lmo9vlrKvjcIz-qQOyMcHXugYjcY3fCiwCVP4mUz1jbQj8CNGZOhqBWNZQHfkvSz_nnTHNc48wIHoGyrYLoSaoMCq58SRdFs6kjZwDvImSejWXSZidno_Qptmvp1_U8M"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 text-surface">
+<span class="font-label-sm text-label-sm uppercase font-bold text-primary-fixed block">Topping Tươi Mới</span>
+<span class="font-headline-sm text-headline-sm font-black">Thịt Băm Xào Nóng Mỗi Mẻ</span>
+<p class="font-body-sm text-body-sm text-surface-container-highest mt-1">Đượm sốt tiêu hành, thịt nạc dăm ngọt bùi tự nhiên.</p>
+</div>
+</div>
+<div class="relative group rounded-3xl overflow-hidden aspect-[4/5] bg-surface shadow-md">
+<img alt="Sợi mì dai giòn trụng chuẩn thời gian" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcMd9A-OMkZAJsKj1_EAW7Jo2LJpN6dh4dOHgFyBMlSzr8zfAP_RVhPnp-NO0Yon1kqMDmuU9agBa-L07EyffIZlLaKFmaKZcWEY7H-xQaiUoUFSc6PWzeWFcOf8t9dVdJji0_Fwz3ieD8X2ryXUBu0Zxi9umvNe7SQaPIpGX8DEP8zFkKQT8nJaSc4SuNosuOkkvDs0bkdOxbgDyiPVJ4fH6jjm5_pZEV6-DW_DfP3F02CvElt5ZJAcYe_GY_2wKQNR4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 text-surface">
+<span class="font-label-sm text-label-sm uppercase font-bold text-primary-fixed block">Kỹ Thuật Độc Quyền</span>
+<span class="font-headline-sm text-headline-sm font-black">Sợi Mì Dai Giòn Bất Bại</span>
+<p class="font-body-sm text-body-sm text-surface-container-highest mt-1">Trụng đúng từng giây, mì không nhũn nát dù ship xa 30 phút.</p>
+</div>
+</div>
+<div class="relative group rounded-3xl overflow-hidden aspect-[4/5] bg-surface shadow-md">
+<img alt="Topping rau củ quả ngô ngọt và trứng ốp la" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYujOvUewUfronUMhajVTQlljHxKR-XscMal7PGm6iedDBKORBuHo9p1sDZkaotyBlAFmamA4lx3f5LDLRytq4L3A1fId6dEFvXSEf30pjoIt7f1qlFC0IajxocVUNh6_yUUWkJZmIGi5hesvT8Dpf6Y8esUcg5IlbCV_pMHZG9KpOpDDz8EhkR1MRSPo1ZXswyWClo_6tSV5Fl-dXEeiAiVS6wAkPYDeTo9qruIPMZO3SRe79aJhaahCxi833oBAu3kk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 text-surface">
+<span class="font-label-sm text-label-sm uppercase font-bold text-primary-fixed block">Chuẩn An Toàn VSTP</span>
+<span class="font-headline-sm text-headline-sm font-black">Rau Xanh &amp; Trứng Lòng Đào</span>
+<p class="font-body-sm text-body-sm text-surface-container-highest mt-1">Ngâm rửa sục ozone kĩ lưỡng, tươi mọng giòn sần sật.</p>
+</div>
+</div>
+</div>
+<!-- 4 Cam Kết Vàng Minh Chứng -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm border-b-4 border-primary">
+<span class="material-symbols-outlined text-primary text-[32px] mb-space-xs">timer</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-extrabold mb-space-2xs">Trụng Mì Bấm Giờ</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sợi mì giữ nguyên độ đàn hồi, không trương nở khi giao hàng.</p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm border-b-4 border-secondary">
+<span class="material-symbols-outlined text-secondary text-[32px] mb-space-xs">egg</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-extrabold mb-space-2xs">Trứng Gà Tươi Mới</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Lòng đào béo ngậy chuẩn xịn, lòng đỏ dẻo quánh quyện sốt cực đỉnh.</p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm border-b-4 border-tertiary">
+<span class="material-symbols-outlined text-tertiary text-[32px] mb-space-xs">eco</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-extrabold mb-space-2xs">Rau Củ Tươi Trong Ngày</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cải thìa non tươi, ngô ngọt mọng nước luộc vừa tới thanh mát.</p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm border-b-4 border-primary-container">
+<span class="material-symbols-outlined text-primary-container text-[32px] mb-space-xs">sanitizer</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-extrabold mb-space-2xs">Bếp Sạch Không Gian Kín</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Khu chế biến luôn vô trùng, đeo bao tay bảo hộ 100% khi ra món.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. COMBO SIÊU TIẾT KIỆM & MENU TOPPING -->
+<section class="w-full py-space-3xl bg-surface" id="combo-topping">
+<div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl">
+<div class="text-center max-w-xl mx-auto mb-space-2xl">
+<span class="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider block mb-space-2xs">
+          Ưu Đãi Ăn No Nê
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-black">
+          COMBO THỊNH SOẠN - TIẾT KIỆM ĐẾN 25%
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Rủ bạn bè hoặc người yêu cùng chén mì trộn XUXI thơm phức trọn gói nước mát lạnh!
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-xl mb-space-2xl">
+<!-- Combo 1: Cặp Đôi Đậm Vị -->
+<div class="bg-gradient-to-br from-surface-container-high to-surface-container rounded-3xl p-space-xl relative shadow-md flex flex-col justify-between border border-secondary/20">
+<div class="absolute top-4 right-4 bg-secondary text-on-secondary px-space-md py-1 rounded-full font-label-sm text-label-sm font-black">
+            TIẾT KIỆM 25K
+          </div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-black uppercase">Combo Đôi Bạn Thân</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-black mt-1">CẶP ĐÔI ĐẬM VỊ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-space-md">
+              Bao gồm: 1 Mì Trộn Sốt Phô Mai Kéo Sợi + 1 Mì Trộn Sốt Sa Tế Cay Nồng + 2 Ly Trà Tắc Chua Ngọt Giải Nhiệt Siêu To.
+            </p>
+<div class="flex items-baseline gap-space-xs mb-space-md">
+<span class="font-headline-lg text-headline-lg text-primary font-black">89.000đ</span>
+<span class="font-body-md text-body-md line-through text-outline">114.000đ</span>
+</div>
+</div>
+<button class="w-full bg-primary-container text-on-primary-container py-space-sm rounded-xl font-label-lg text-label-lg font-bold shadow hover:bg-primary transition-all" onclick="selectDish('Combo Cặp Đôi Đậm Vị', 89000)">
+            Chọn Combo Này (89k)
+          </button>
+</div>
+<!-- Combo 2: Bữa Ăn Trọn Vẹn -->
+<div class="bg-gradient-to-br from-[#fff2e0] to-surface-container-low rounded-3xl p-space-xl relative shadow-md flex flex-col justify-between border border-amber-300/40">
+<div class="absolute top-4 right-4 bg-tertiary text-on-tertiary px-space-md py-1 rounded-full font-label-sm text-label-sm font-black">
+            BÁN CHẠY NHẤT
+          </div>
+<div>
+<span class="font-label-sm text-label-sm text-tertiary font-black uppercase">Dành Cho 1 Người No Đẫy Đà</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-black mt-1">BỮA ĂN TRỌN VẸN</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-space-md">
+              Bao gồm: 1 Mì Trộn Vị Tự Chọn + 1 Phần Xúc Xích Đức Thơm Giòn + 1 Phô Mai Viên Béo Kéo Sợi + 1 Lon Nước Giải Khát.
+            </p>
+<div class="flex items-baseline gap-space-xs mb-space-md">
+<span class="font-headline-lg text-headline-lg text-primary font-black">49.000đ</span>
+<span class="font-body-md text-body-md line-through text-outline">65.000đ</span>
+</div>
+</div>
+<button class="w-full bg-primary-container text-on-primary-container py-space-sm rounded-xl font-label-lg text-label-lg font-bold shadow hover:bg-primary transition-all" onclick="selectDish('Combo Bữa Ăn Trọn Vẹn', 49000)">
+            Chọn Combo Này (49k)
+          </button>
+</div>
+</div>
+<!-- Bảng Topping Thêm Yêu Thích -->
+<div class="bg-surface-container-low p-space-xl rounded-3xl border border-outline-variant/30">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-black mb-space-md flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">add_circle</span>
+          Topping Gọi Thêm Cực Đã
+        </h4>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-md text-body-md">
+<div class="bg-surface p-space-md rounded-xl shadow-sm flex items-center justify-between border border-outline-variant/20">
+<span class="font-label-md text-label-md font-bold text-on-surface">Trứng gà lòng đào</span>
+<span class="font-label-sm text-label-sm text-secondary font-black">+6.000đ</span>
+</div>
+<div class="bg-surface p-space-md rounded-xl shadow-sm flex items-center justify-between border border-outline-variant/20">
+<span class="font-label-md text-label-md font-bold text-on-surface">Thịt băm xào thêm</span>
+<span class="font-label-sm text-label-sm text-secondary font-black">+10.000đ</span>
+</div>
+<div class="bg-surface p-space-md rounded-xl shadow-sm flex items-center justify-between border border-outline-variant/20">
+<span class="font-label-md text-label-md font-bold text-on-surface">Phô mai kéo sợi</span>
+<span class="font-label-sm text-label-sm text-secondary font-black">+10.000đ</span>
+</div>
+<div class="bg-surface p-space-md rounded-xl shadow-sm flex items-center justify-between border border-outline-variant/20">
+<span class="font-label-md text-label-md font-bold text-on-surface">Xúc xích Đức nướng</span>
+<span class="font-label-sm text-label-sm text-secondary font-black">+8.000đ</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. FEEDBACK KHÁCH HÀNG & MẠNG XÃ HỘI -->
+<section class="w-full py-space-3xl bg-surface-container-high/40" id="danh-gia">
+<div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl">
+<div class="text-center max-w-xl mx-auto mb-space-2xl">
+<span class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider block mb-space-2xs">
+          Cộng Đồng Ăn Vặt Gò Vấp &amp; TP.HCM
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-black">
+          THỰC KHÁCH NÓI GÌ VỀ MÌ TRỘN CÔ XI?
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Hơn 1,500 đánh giá 5 sao từ học sinh, sinh viên và dân văn phòng ghiền mì trộn.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Feedback 1 -->
+<div class="bg-surface p-space-lg rounded-3xl shadow-sm flex flex-col justify-between border border-outline-variant/20">
+<div>
+<div class="flex items-center gap-space-xs text-tertiary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "Thề luôn sốt phô mai ở đây cuốn dữ dội! Béo thơm mà không bị ngấy, dầm cái trứng lòng đào vào mì ăn tan trong miệng. Tuần nào cả phòng mình cũng order 2-3 lần."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md mt-space-md border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-primary flex items-center justify-center font-bold">
+              TN
+            </div>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Thảo Nhi</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sinh viên ĐH Công Nghiệp (IUH)</span>
+</div>
+</div>
+</div>
+<!-- Feedback 2 -->
+<div class="bg-surface p-space-lg rounded-3xl shadow-sm flex flex-col justify-between border border-outline-variant/20">
+<div>
+<div class="flex items-center gap-space-xs text-tertiary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "Ai ăn cay được thì nhất định phải gọi Sốt Đặc Biệt Sa Tế nha. Vị cay the ấm bụng, sợi mì dai sần sật không bị mềm nhũn như mấy chỗ khác. Ly giấy đóng gói vừa sạch vừa đẹp mắt."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md mt-space-md border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-secondary flex items-center justify-center font-bold">
+              HQ
+            </div>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Huy Quang</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Nhân viên Văn phòng Q. Gò Vấp</span>
+</div>
+</div>
+</div>
+<!-- Feedback 3 -->
+<div class="bg-surface p-space-lg rounded-3xl shadow-sm flex flex-col justify-between border border-outline-variant/20">
+<div>
+<div class="flex items-center gap-space-xs text-tertiary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "Xe mì của Cô Xi ngay Hàng Thu nhìn dễ thương và sạch bóng loáng. Giá học sinh 39k mà thịt băm ngập tràn, trứng lòng đào chuẩn xịn, ăn bao no tới trưa luôn!"
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md mt-space-md border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center font-bold">
+              MA
+            </div>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Minh Anh</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Thực khách tại quán</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. THÔNG TIN CỬA HÀNG & FORM ĐẶT HÀNG TRỰC TIẾP -->
+<section class="w-full py-space-3xl bg-surface relative" id="dat-mon">
+<div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Cột Bên Trái: Thông tin xe mì & địa chỉ -->
+<div class="lg:col-span-5 space-y-space-lg">
+<div class="bg-surface-container-low p-space-xl rounded-3xl shadow-sm border border-outline-variant/30">
+<div class="inline-flex items-center gap-space-xs bg-primary-fixed px-space-md py-space-2xs rounded-full font-label-md text-label-md text-on-primary-fixed font-black mb-space-sm">
+<span class="material-symbols-outlined text-[18px]">store</span>
+<span>Xe Mì Trộn XUXI Chính Gốc</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-black mb-space-xs">
+              Ghé Tận Nơi Hoặc Nhấc Máy Gọi
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg">
+              Trải nghiệm cảm giác nhìn từng mẻ sốt nóng hổi xèo xèo trên chảo tại quầy xe mì màu cam đặc trưng của Cô Xi.
+            </p>
+<div class="space-y-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px] shrink-0 mt-0.5">location_on</span>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Địa Chỉ Quầy Xe Mì:</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">33 Hàng Thu, TT. Đồng Địn (Chi nhánh chính)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1">Chi nhánh 2: 124/8 Đường Số 1, P. 11, Gò Vấp, TP.HCM</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px] shrink-0 mt-0.5">phone_in_talk</span>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Hotline Giao Hàng Siêu Tốc:</span>
+<a class="font-headline-sm text-headline-sm text-primary font-black hover:underline" href="tel:07712578898">077 12 578 898</a>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[24px] shrink-0 mt-0.5">alarm</span>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface block">Thời Gian Mở Bán:</span>
+<span class="font-body-md text-body-md text-on-surface-variant">09:30 - 22:30 hàng ngày (kể cả Lễ, Tết)</span>
+</div>
+</div>
+</div>
+<!-- Nút gọi ngay -->
+<div class="pt-space-md mt-space-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs bg-secondary text-on-secondary py-space-md rounded-2xl font-label-lg text-label-lg font-black shadow-lg hover:bg-secondary-container transition-all" href="tel:07712578898">
+<span class="material-symbols-outlined text-[24px]">call</span>
+<span>Gọi Hotline Đặt Liền: 077 12 578 898</span>
+</a>
+</div>
+</div>
+<!-- Chi tiết ảnh cận cảnh món ăn ngon mắt -->
+<div class="rounded-3xl overflow-hidden shadow-md aspect-video bg-surface-container border border-outline-variant/30">
+<img alt="Tô Mì Trộn XUXI Đầy Đủ Topping Hấp Dẫn" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD61ng6wkEv-Mpnnh3OJf_5jqlsplPx75sMYtFn53y_q_xZjimR-skpZDtEmHTp7Ac30livuLPTydivB08bMftAE434THmey7kNbxlwsSIBNye6yml_NYQB687JKhj5pMUAzciIl9qyoCxA4xJ1hQSB4kD43_le9ACHSoPj8OQ-oT9arD0xSwh60HicL1-rQhVHp2GfA-AtZhi8KvvKsRqu2OrQ5ATB03qWWMEUxGEGEAMXJKlmlCuX6HilRboSMALyrAc"/>
+</div>
+</div>
+<!-- Cột Bên Phải: Form Đặt Món Nhanh Tiếp Nhận Đơn -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-xl lg:p-space-2xl rounded-3xl shadow-xl border border-primary/20">
+<div class="mb-space-lg">
+<h3 class="font-headline-md text-headline-md text-on-surface font-black">
+              ĐẶT GIAO HỎA TỐC 30 PHÚT
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+              Điền nhanh thông tin dưới đây, Cô Xi sẽ liên hệ xác nhận đơn và giao ngay ly mì nóng hổi tới bạn!
+            </p>
+</div>
+<form class="space-y-space-md" id="orderForm" onsubmit="handleOrderSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="font-label-md text-label-md font-bold text-on-surface block mb-space-2xs">Họ và tên bạn *</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl text-body-md text-on-surface outline-none focus:ring-2 focus:ring-primary transition-all" placeholder="Ví dụ: Nguyễn Văn A" required="" type="text"/>
+</div>
+<div>
+<label class="font-label-md text-label-md font-bold text-on-surface block mb-space-2xs">Số điện thoại nhận hàng *</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl text-body-md text-on-surface outline-none focus:ring-2 focus:ring-primary transition-all" placeholder="Ví dụ: 0901 234 567" required="" type="tel"/>
+</div>
+</div>
+<div>
+<label class="font-label-md text-label-md font-bold text-on-surface block mb-space-2xs">Địa chỉ giao hàng chi tiết *</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl text-body-md text-on-surface outline-none focus:ring-2 focus:ring-primary transition-all" placeholder="Số nhà, tên đường, phường/xã, quận/huyện..." required="" type="text"/>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="font-label-md text-label-md font-bold text-on-surface block mb-space-2xs">Chọn Món / Combo chính *</label>
+<select class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl text-body-md text-on-surface outline-none focus:ring-2 focus:ring-primary transition-all font-medium" id="dishSelect">
+<option value="Mì Trộn Sốt Phô Mai - 39.000đ">Mì Trộn Sốt Phô Mai (Bao Bì XUXI) - 39.000đ</option>
+<option value="Mì Trộn Sốt Đặc Biệt Sa Tế - 39.000đ">Mì Trộn Sốt Đặc Biệt Sa Tế (Bao Bì XUXI) - 39.000đ</option>
+<option value="Combo Bữa Ăn Trọn Vẹn - 49.000đ">Combo Bữa Ăn Trọn Vẹn - 49.000đ</option>
+<option value="Combo Cặp Đôi Đậm Vị - 89.000đ">Combo Cặp Đôi Đậm Vị - 89.000đ</option>
+</select>
+</div>
+<div>
+<label class="font-label-md text-label-md font-bold text-on-surface block mb-space-2xs">Số lượng ly/phần</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl text-body-md text-on-surface outline-none focus:ring-2 focus:ring-primary transition-all" max="50" min="1" type="number" value="1"/>
+</div>
+</div>
+<div>
+<label class="font-label-md text-label-md font-bold text-on-surface block mb-space-2xs">Ghi chú khẩu vị (Độ cay, không hành, v.v.)</label>
+<textarea class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl text-body-md text-on-surface outline-none focus:ring-2 focus:ring-primary transition-all" placeholder="Ví dụ: Ăn cay ít, xin thêm 1 phần sa tế để riêng, nhiều tương ớt..." rows="2"></textarea>
+</div>
+<button class="w-full bg-primary-container text-on-primary-container py-space-md rounded-2xl font-label-lg text-label-lg font-black shadow-[0_8px_0px_0px_#7f2b00] hover:bg-primary active:translate-y-1 active:shadow-[0_4px_0px_0px_#7f2b00] transition-all flex items-center justify-center gap-space-xs" type="submit">
+<span class="material-symbols-outlined text-[24px]">done_all</span>
+<span>XÁC NHẬN ĐẶT HÀNG NGAY</span>
+</button>
+<p class="font-label-sm text-label-sm text-on-surface-variant text-center mt-space-2xs">
+              ⚡ Cam kết không phát sinh phụ phí! Kiểm tra mì nóng hổi trong ly giấy mới thanh toán tiền mặt (COD) hoặc Chuyển khoản.
+            </p>
+</form>
+<!-- Hộp thông báo đặt thành công (ẩn mặc định) -->
+<div class="hidden mt-space-md p-space-md bg-surface-container-high rounded-2xl flex items-center gap-space-sm" id="successNotice">
+<span class="material-symbols-outlined text-primary text-[32px]">check_circle</span>
+<div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold block leading-tight">Đặt món thành công!</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bếp Cô Xi đã nhận đơn và đang chuẩn bị ly mì cho bạn ngay bây giờ!</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  function selectDish(dishName, price) {
+    const select = document.getElementById('dishSelect');
+    if (select) {
+      for (let i = 0; i < select.options.length; i++) {
+        if (select.options[i].text.includes(dishName)) {
+          select.selectedIndex = i;
+          break;
+        }
+      }
+    }
+    const orderSection = document.getElementById('dat-mon');
+    if (orderSection) {
+      orderSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  function handleOrderSubmit(e) {
+    e.preventDefault();
+    const notice = document.getElementById('successNotice');
+    if (notice) {
+      notice.classList.remove('hidden');
+    }
+    const form = document.getElementById('orderForm');
+    if (form) {
+      form.reset();
+    }
+  }
+</script></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-3xl relative overflow-hidden"><div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl py-space-3xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl relative z-10"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="logo.png" class="h-10 w-10 rounded-full object-cover border border-primary" src="https://lh3.googleusercontent.com/aida/AEtjO1X7KrwpbOn7mhDY53Vdwl3HJeA4JVOI4jSxnjny2iLjAJLOQUH7DwcEw02yJQoDXSGgrUB3QcJuFDt2IpHGMAvMZoRckHxdNYf2ZF9lUDRpDUV6yps0P2NtQfDJdx6u0jgy78lCfAGmh90A0yxNoYZL81_jWo2LNPgDb7_ZGcn2MCNIwDuOi5npoPMY1KTzav6TBwrGlWMofq0GGXVZ57ToQ5vpHHtMXwkfoWM_k7Yqzf-8oMUnJIXb5qRtaohY92o0W_b3x7KOZg"/><div><span class="font-headline-sm text-headline-sm text-primary block leading-none font-black">Mì Trộn Cô Xi</span><span class="font-label-sm text-label-sm text-on-surface-variant font-bold tracking-wider uppercase">Mì Trộn XUXI</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant">Hương vị mì trộn đường phố Sài Gòn độc bản với bao bì ly giấy giữ nhiệt tiện lợi, sốt sa tế cay tê đậm đà và phô mai béo ngậy chuẩn gu giới trẻ.</p><div class="flex items-center gap-space-sm"><span class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[20px]">share</span></span><span class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[20px]">thumb_up</span></span><span class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[20px]">chat</span></span></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Địa Chỉ Cửa Hàng</span><div class="flex items-start gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[22px] shrink-0">location_on</span><span class="font-body-sm text-body-sm">33 Hàng Thu, TT. Đồng Địn (Chi nhánh chính)</span></div><div class="flex items-start gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[22px] shrink-0">storefront</span><span class="font-body-sm text-body-sm">Chi nhánh 2: 124/8 Đường Số 1, Phường 11, Quận Gò Vấp, TP.HCM</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Giờ Phục Vụ</span><div class="flex items-start gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[22px] shrink-0">schedule</span><div><span class="font-label-md text-label-md text-on-surface block">Thứ 2 - Chủ Nhật</span><span class="font-body-sm text-body-sm">09:30 Sáng - 22:30 Tối</span><span class="font-label-sm text-label-sm text-secondary block mt-space-2xs font-bold">(Nhận đơn online qua hotline &amp; app)</span></div></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Đường Dây Nóng</span><div class="flex items-start gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[22px] shrink-0">phone_in_talk</span><div><span class="font-body-sm text-body-sm block">Hotline CSKH &amp; Giao Hàng:</span><a class="font-headline-sm text-headline-sm text-primary font-black hover:underline" href="tel:07712578898">077 12 578 898</a></div></div><div class="bg-surface-container rounded-xl p-space-sm mt-space-xs"><span class="font-label-sm text-label-sm text-on-surface block font-bold">⚡ Giao siêu tốc nội thành 30 phút</span><span class="font-label-sm text-label-sm text-on-surface-variant block">Đảm bảo mì nóng giòn trong ly giấy 2 lớp!</span></div></div></div><div class="bg-surface-container py-space-md"><div class="max-w-[1200px] mx-auto px-space-md lg:px-space-xl flex flex-col sm:flex-row items-center justify-between gap-space-sm"><span class="font-body-sm text-body-sm text-on-surface-variant">© 2024 Mì Trộn Cô Xi (Mì Trộn XUXI). Tất cả quyền được bảo lưu.</span><div class="flex items-center gap-space-md"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary" href="#">Chính sách giao hàng</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary" href="#">An toàn thực phẩm</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary" href="#">Liên hệ nhượng quyền</a></div></div></div></footer></body></html>
