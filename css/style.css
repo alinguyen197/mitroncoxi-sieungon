@@ -200,3 +200,12 @@ header nav a {
     border-radius: 1.5rem !important;
   }
 }
+
+/* iPhone 12 Pro, 14 Pro, Dynamic Island Support */
+header {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+#mobileMenu > div {
+  padding-top: calc(1rem + env(safe-area-inset-top, 0px)) !important;
+  padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)) !important;
+}
