@@ -167,3 +167,36 @@
 #imageLightbox {
   transition: opacity 0.25s ease, visibility 0.25s ease;
 }
+
+
+/* Ensure Desktop Nav links never wrap vertically */
+header nav {
+  white-space: nowrap !important;
+}
+
+header nav a {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  display: inline-block !important;
+}
+
+/* Swiper Pagination Placement - in normal flow to prevent overlapping buttons */
+.swiper-pagination {
+  position: relative !important;
+  bottom: auto !important;
+  margin-top: 18px !important;
+  z-index: 10 !important;
+}
+
+.hero-swiper .swiper-pagination {
+  position: absolute !important;
+  bottom: 16px !important;
+  margin-top: 0 !important;
+}
+
+/* Mobile tap safety */
+@media (max-width: 640px) {
+  .hero-swiper {
+    border-radius: 1.5rem !important;
+  }
+}
